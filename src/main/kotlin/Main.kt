@@ -76,9 +76,21 @@ fun main() {
         println("Enter a valid number!")
     }
 
+    // git status checks the status of the project  git add . adds the new modifications  git commit -m "" commits
 
+     //When expressions
 
-
+      println("Please enter a number:")
+          val ndani = readln()
+          val ndaniAsInteger = ndani.toIntOrNull()
+    val nje = when(ndaniAsInteger){
+        null -> "enter valid number!"
+        3 -> "number is three"
+        5 -> "number is five"
+        in 10 .. 20  -> "number between is 10 and 20"
+        else    -> "i have no idea what to print"
+    }
+    println(nje)
 }
 
 // we have 5 primitive data types String, integer, float 34 bits, double 64bits, Boolean
