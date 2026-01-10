@@ -91,8 +91,15 @@ fun main() {
         else    -> "i have no idea what to print"
     }
     println(nje)
+
+    second()
 }
 
 // we have 5 primitive data types String, integer, float 34 bits, double 64bits, Boolean
  // var is changable
+
+//exceptions & try/catch - havent really understood well
+
+
+
 
