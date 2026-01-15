@@ -19,4 +19,21 @@ fun second (){
 
     //Loops
 
+    println("How many numbers will you enter?")
+    val amountOfNumbers = readln().toIntOrNull() ?: 0
+    var sum = 0
+    var i = 0
+    while (i < amountOfNumbers){
+        println("Please enter number #${i + 1}") //i is increased by 1
+        val number = readln().toIntOrNull() ?: 0 // so ?: 0 means that if you input an invalid number like "hello" and add with lets say 5 the answer will come as 5. meaning it has ignored the invalid input. ?: continue means if you put the invalid the program will ask you to enter again unit you enter correct value. ?: break meas it stops everything
+        sum += number
+        i++
+    }
+    println("tHE TOTAL SUM IS $sum")
+
+
+
+
+
+
 }

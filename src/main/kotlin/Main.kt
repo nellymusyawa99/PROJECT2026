@@ -93,6 +93,7 @@ fun main() {
     println(nje)
 
     second()
+    functions()
 }
 
 // we have 5 primitive data types String, integer, float 34 bits, double 64bits, Boolean
