@@ -96,6 +96,12 @@ fun main() {
     functions()
     uweppo()
 
+    val nums = intArrayOf(2,7,11,15)
+    val target = 9
+    val result = TwoSum(nums, target)
+
+    println("${result[0]},${result[1]}")
+
 }
 
 // we have 5 primitive data types String, integer, float 34 bits, double 64bits, Boolean
